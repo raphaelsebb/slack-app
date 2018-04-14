@@ -1,6 +1,13 @@
-.npmignore
-.serverless/
-node_modules/
+# package directories
+node_modules
+jspm_packages
 
+# Serverless directories
+.serverless
+
+# images
 assets/slack-app.ai
 assets/slack-app.psd
+
+#configs
+config
